@@ -2,15 +2,15 @@ import { motion } from 'framer-motion'
 import { FaHeart, FaUserMd, FaPiggyBank, FaChartLine, FaCar, FaHome, FaUmbrella, FaBuilding, FaBriefcase } from 'react-icons/fa'
 
 const services = [
-  { icon: FaHeart, title: 'Life Insurance', desc: 'Protect your family's financial future with comprehensive life coverage tailored to your needs.', keyword: 'life insurance Rio Grande Valley' },
+  { icon: FaHeart, title: 'Life Insurance', desc: "Protect your family's financial future with comprehensive life coverage tailored to your needs.", keyword: 'life insurance Rio Grande Valley' },
   { icon: FaUserMd, title: 'Health Insurance', desc: 'Access quality healthcare with plans designed for individuals, families, and groups.', keyword: 'health insurance McAllen TX' },
   { icon: FaPiggyBank, title: 'Retirement Planning', desc: 'Build a secure future with personalized retirement strategies that grow with you.', keyword: 'retirement planning Texas' },
   { icon: FaChartLine, title: 'Annuities', desc: 'Guaranteed income streams and tax-advantaged growth to support your retirement goals.', keyword: 'annuities South Texas' },
   { icon: FaCar, title: 'Auto Insurance', desc: 'Comprehensive auto coverage protecting you and your vehicle on every road.', keyword: 'auto insurance Edinburg TX' },
-  { icon: FaHome, title: 'Home Insurance', desc: 'Safeguard your home and belongings with the right homeowner's coverage.', keyword: 'home insurance Rio Grande Valley' },
+  { icon: FaHome, title: 'Home Insurance', desc: "Safeguard your home and belongings with the right homeowner's coverage.", keyword: 'home insurance Rio Grande Valley' },
   { icon: FaUmbrella, title: 'Umbrella Insurance', desc: 'Extra liability protection that goes beyond standard policies for complete peace of mind.', keyword: 'umbrella insurance Texas' },
   { icon: FaBuilding, title: 'Commercial Insurance', desc: 'Business insurance solutions to protect your company, employees, and assets.', keyword: 'commercial insurance South Texas' },
-  { icon: FaBriefcase, title: 'Business Owner's Policy', desc: 'Bundled coverage combining property and liability insurance for small business owners.', keyword: 'BOP insurance McAllen' },
+  { icon: FaBriefcase, title: "Business Owner's Policy", desc: 'Bundled coverage combining property and liability insurance for small business owners.', keyword: 'BOP insurance McAllen' },
 ]
 
 export default function Services() {
