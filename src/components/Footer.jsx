@@ -1,4 +1,4 @@
-©import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
+      ©import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
 
 const services = ['Life Insurance', 'Health Insurance', 'Auto Insurance', 'Home Insurance', 'Business Insurance', 'Retirement Planning']
 
@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="space-y-2">
               <a href="tel:9562800573" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaPhone className="text-xs" />
-                (956) 280-0573
+                h(559)213-6631
               </a>
               <a href="mailto:markshears@ymail.com" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaEnvelope className="text-xs" />
