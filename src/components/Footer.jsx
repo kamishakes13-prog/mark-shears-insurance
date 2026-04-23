@@ -1,4 +1,4 @@
-import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
+©import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
 
 const services = ['Life Insurance', 'Health Insurance', 'Auto Insurance', 'Home Insurance', 'Business Insurance', 'Retirement Planning']
 
