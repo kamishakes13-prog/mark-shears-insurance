@@ -33,7 +33,7 @@ export default function Navbar() {
                                 </motion.a>motion.a>
                                 <div className="hidden md:flex items-center gap-6">
                                   {navLinks.map((link) => (
-                              h<a key={link.name} href={link.href} className={`font-medium ${scrolled ? 'text-gray-700 hover:text-blue-600' : 'text-white hover:text-blue-300'}`}>{link.name}</a>a>
+                             <a key={link.name} href={link.href} className={`font-medium ${scrolled ? 'text-gray-700 hover:text-blue-600' : 'text-white hover:text-blue-300'}`}>{link.name}</a>a>
                             ))}
                                             <a href="tel:9562136631" className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full font-semibold hover:bg-dark transition-colors">
                                                           <FaPhone className="text-sm" />
