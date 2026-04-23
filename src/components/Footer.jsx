@@ -3,7 +3,7 @@
 const services = ['Life Insurance', 'Health Insurance', 'Auto Insurance', 'Home Insurance', 'Business Insurance', 'Retirement Planning']
 
 export default function Footer() {
-  return (
+  return (h
     <footer className="bg-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
@@ -24,9 +24,9 @@ export default function Footer() {
                 <FaPhone className="text-xs" />
                 h(559)213-6631
               </a>
-              <a href="mailto:markshears@ymail.com" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
+              <a href="mailto:Mshears@markshearsinsurance.com" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaEnvelope className="text-xs" />
-                markshears@ymail.com
+                Mshears@markshearsinsurance.com
               </a>
             </div>
           </div>
