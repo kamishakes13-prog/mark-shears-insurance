@@ -10,7 +10,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Mark Shears Insurance - Rio Grande Valley">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-dark via-primary to-secondary" />
       <div className="absolute inset-0 opacity-10">
@@ -26,17 +26,17 @@ export default function Hero() {
         >
           <div className="flex justify-center mb-6">
             <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-              <FaShieldAlt className="text-4xl text-white" />
+              <FaShieldAlt className="text-4xl text-white" aria-hidden="true" />
             </div>
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Protect What<br />
-            <span className="text-accent">Matters Most</span>
+            Insurance Agent in<br />
+            <span className="text-accent">Rio Grande Valley, TX</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-blue-100 mb-4 max-w-3xl mx-auto">
-            Mark Shears Insurance — Serving the Rio Grande Valley
+            Mark Shears Insurance — Trusted Auto, Home, Life &amp; Business Insurance
           </p>
 
           <p className="text-lg text-blue-200 mb-10 max-w-2xl mx-auto italic">
@@ -49,14 +49,16 @@ export default function Hero() {
               className="btn-primary text-lg px-8 py-4 rounded-full"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              aria-label="Get a free insurance quote"
             >
               Get Free Quote
             </motion.button>
             <a
               href="tel:5592136631"
               className="flex items-center gap-2 text-white border-2 border-white/50 px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-all text-lg"
+              aria-label="Call Mark Shears Insurance at (559) 213-6631"
             >
-              <FaPhone />
+              <FaPhone aria-hidden="true" />
               (559) 213-6631
             </a>
           </div>
@@ -84,7 +86,7 @@ export default function Hero() {
 
       {/* Wave */}
       <div className="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 1440 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M0 160L1440 160L1440 80C1200 160 960 40 720 80C480 120 240 40 0 80L0 160Z" fill="white"/>
         </svg>
       </div>
