@@ -17,7 +17,7 @@ const ageMultiplier = (age) => {
 }
 
 export default function QuoteCalculator() {
-  const [form, setForm] = useState({ type: 'Auto', age: '', coverage: 'Standard' })
+  const [form, setForm] = useState({ type: 'Auto', dob: '', coverage: 'Standard' })
   const [result, setResult] = useState(null)
   const [loading, setLoading] = useState(false)
 
@@ -39,7 +39,7 @@ export default function QuoteCalculator() {
 
     setTimeout(() => {
       const [low, high] = baseRates[form.type][form.coverage]
-      const mult = ageMultiplier(parseInt(form.age) || 35)
+      const mult = ageMultiplier(form.dob ? Math.floor((new Date() - new Date(form.dob)) / (365.25 * 24 * 60 * 60 * 1000)) : 35)
       const estLow = Math.round(low * mult)
       const estHigh = Math.round(high * mult)
       setResult({ low: estLow, high: estHigh })
@@ -88,15 +88,13 @@ export default function QuoteCalculator() {
 
             {/* Age */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Your Age</label>
+              <label className="block text-sm font-semibold text-gray-700 mb-2">Date of Birth</label>
               <input
-                type="number"
-                name="age"
-                value={form.age}
+                type="date"
+                name="dob"
+                value={form.dob}
                 onChange={handleChange}
-                placeholder="e.g. 35"
-                min="18"
-                max="80"
+                max={new Date().toISOString().split('T')[0]}
                 required
                 className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 focus:border-primary focus:outline-none transition-colors"
               />
