@@ -2,20 +2,20 @@ import { motion } from 'framer-motion'
 import { FaHeart, FaUserMd, FaPiggyBank, FaChartLine, FaCar, FaHome, FaUmbrella, FaBuilding, FaBriefcase } from 'react-icons/fa'
 
 const services = [
-  { icon: FaHeart, title: 'Life Insurance', desc: "Protect your family's financial future with comprehensive life insurance coverage." },
-  { icon: FaUserMd, title: 'Health Insurance', desc: 'Access quality healthcare with plans designed to fit your needs and budget.' },
-  { icon: FaPiggyBank, title: 'Retirement Planning', desc: 'Build a secure future with personalized retirement strategies.' },
-  { icon: FaChartLine, title: 'Annuities', desc: 'Guaranteed income streams and tax-advantaged growth for your retirement.' },
-  { icon: FaCar, title: 'Auto Insurance', desc: 'Comprehensive auto coverage protecting you and your vehicle on the road.' },
-  { icon: FaHome, title: 'Home Insurance', desc: "Safeguard your home and belongings with the right coverage." },
-  { icon: FaUmbrella, title: 'Renters Insurance', desc: 'Affordable protection for your belongings and liability as a renter.', link: 'https://epremiuminsurance.com' },
-  { icon: FaBuilding, title: 'Commercial Insurance', desc: 'Protect your business assets, employees, and operations.' },
-  { icon: FaBriefcase, title: 'Business Insurance', desc: 'Specialized coverage for small and medium businesses.' },
+  { icon: FaHeart, title: 'Life Insurance', desc: "Protect your family's financial future with comprehensive life insurance coverage in Rio Grande Valley, TX." },
+  { icon: FaUserMd, title: 'Health Insurance', desc: 'Access quality healthcare with health insurance plans designed to fit your needs and budget in South Texas.' },
+  { icon: FaPiggyBank, title: 'Retirement Planning', desc: 'Build a secure future with personalized retirement strategies tailored for Rio Grande Valley residents.' },
+  { icon: FaChartLine, title: 'Annuities', desc: 'Guaranteed income streams and tax-advantaged growth for your retirement — serving McAllen, Edinburg, and beyond.' },
+  { icon: FaCar, title: 'Auto Insurance', desc: 'Comprehensive auto insurance protecting you and your vehicle on Texas roads. Affordable rates for RGV drivers.' },
+  { icon: FaHome, title: 'Home Insurance', desc: "Safeguard your home and belongings with the right home insurance coverage for Rio Grande Valley homeowners." },
+  { icon: FaUmbrella, title: 'Renters Insurance', desc: 'Affordable renters insurance for your belongings and liability. Serving Mission, Pharr, Harlingen, and the entire RGV.', link: 'https://epremiuminsurance.com' },
+  { icon: FaBuilding, title: 'Commercial Insurance', desc: 'Protect your business assets, employees, and operations with commercial insurance in Rio Grande Valley, Texas.' },
+  { icon: FaBriefcase, title: 'Business Insurance', desc: 'Specialized business insurance coverage for small and medium businesses throughout South Texas.' },
 ]
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50" aria-label="Insurance Services in Rio Grande Valley, Texas">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -23,8 +23,11 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-dark mb-4">Our Insurance Services</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">Comprehensive coverage options tailored to protect what matters most to you and your family.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-dark mb-4">Insurance Services in Rio Grande Valley, TX</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Looking for reliable insurance in Rio Grande Valley? Mark Shears Insurance provides affordable and personalized
+            coverage options for individuals, families, and businesses across McAllen, Edinburg, Mission, and all of South Texas.
+          </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -55,12 +58,6 @@ export default function Services() {
               </span>
             </motion.div>
           ))}
-        </div>
-
-        {/* Local SEO keywords (hidden for search engines) */}
-        <div className="hidden" aria-hidden="true">
-          Insurance services in McAllen TX, Edinburg TX, Mission TX, Pharr TX, Hidalgo County,
-          Rio Grande Valley insurance agent, affordable insurance Texas
         </div>
       </div>
     </section>
