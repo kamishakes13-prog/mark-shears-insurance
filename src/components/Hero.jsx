@@ -53,11 +53,11 @@ export default function Hero() {
               Get Free Quote
             </motion.button>
             <a
-              href="tel:9562800573"
+              href="tel:5592136631"
               className="flex items-center gap-2 text-white border-2 border-white/50 px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-all text-lg"
             >
               <FaPhone />
-              (956) 280-0573
+              (559) 213-6631
             </a>
           </div>
 
