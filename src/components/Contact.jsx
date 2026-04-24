@@ -5,7 +5,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaCheckCircle } from 'react-icons/
 const insuranceTypes = ['Life', 'Health', 'Retirement', 'Annuities', 'Auto', 'Home', 'Umbrella', 'Commercial', 'BOP', 'Other']
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', type: '', message: '' })
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', dob: '', type: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
@@ -29,6 +29,7 @@ export default function Contact() {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
+          date_of_birth: formData.dob,
           insurance_type: formData.type,
           message: formData.message,
           _subject: `New Insurance Lead: ${formData.name} - ${formData.type}`
@@ -147,6 +148,12 @@ export default function Contact() {
                     <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required
                       className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 focus:border-primary focus:outline-none" />
                   </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-1">Date of Birth</label>
+                  <input type="date" name="dob" value={formData.dob} onChange={handleChange}
+                    max={new Date().toISOString().split('T')[0]}
+                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 focus:border-primary focus:outline-none" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-1">Email *</label>
