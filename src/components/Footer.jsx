@@ -20,9 +20,9 @@ export default function Footer() {
               a personalized solution for your individual needs.
             </p>
             <div className="space-y-2">
-              <a href="tel:9562136631" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
+              <a href="tel:5592136631" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaPhone className="text-xs" />
-                (956) 213-6631
+                (559) 213-6631
               </a>
               <a href="mailto:Mshears@markshearsinsurance.com" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaEnvelope className="text-xs" />
