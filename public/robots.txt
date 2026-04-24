@@ -1,0 +1,11 @@
+# robots.txt for Mark Shears Insurance
+# https://mark-shears-insurance.vercel.app/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mark-shears-insurance.vercel.app/sitemap.xml
+
+# Disallow admin or private paths (none currently, but good practice)
+# Disallow: /admin/
