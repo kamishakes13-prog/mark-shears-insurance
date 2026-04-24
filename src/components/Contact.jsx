@@ -68,7 +68,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-dark mb-6">Contact Information</h3>
             <div className="space-y-6">
               <a
-                href="tel:9562800573"
+                href="tel:5592136631"
                 className="flex items-center gap-4 p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors group"
                 onClick={() => typeof gtag !== 'undefined' && gtag('event', 'click', { event_category: 'Contact', event_label: 'Phone Click' })}
               >
@@ -77,7 +77,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Call or Text</p>
-                  <p className="font-bold text-dark text-lg group-hover:text-primary">(956) 280-0573</p>
+                  <p className="font-bold text-dark text-lg group-hover:text-primary">(559) 213-6631</p>
                 </div>
               </a>
 
@@ -132,7 +132,7 @@ export default function Contact() {
                 <FaCheckCircle className="text-6xl text-primary mb-4" />
                 <h3 className="text-2xl font-bold text-dark mb-2">Thanks! We'll contact you shortly.</h3>
                 <p className="text-gray-600">We'll reach out within 24 hours. In the meantime, feel free to call!</p>
-                <a href="tel:9562800573" className="btn-primary mt-6 inline-block">Call Now</a>
+                <a href="tel:5592136631" className="btn-primary mt-6 inline-block">Call Now</a>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
