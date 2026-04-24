@@ -74,8 +74,8 @@ export default function Hero() {
               { label: 'Insurance Types', value: '9+' },
             ].map(item => (
               <div key={item.label} className="text-center">
-                <div className="text-3xl font-bold text-accent">{item.value}</div>
-                <div className="text-blue-200 text-sm mt-1">{item.label}</div>
+                <div className="text-3xl font-bold text-primary">{item.value}</div>
+                <div className="text-gray-600 text-sm mt-1">{item.label}</div>
               </div>
             ))}
           </motion.div>
@@ -84,8 +84,8 @@ export default function Hero() {
 
       {/* Wave */}
       <div className="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 80L1440 80L1440 40C1200 80 960 0 720 40C480 80 240 0 0 40L0 80Z" fill="white"/>
+        <svg viewBox="0 0 1440 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 160L1440 160L1440 80C1200 160 960 40 720 80C480 120 240 40 0 80L0 160Z" fill="white"/>
         </svg>
       </div>
     </section>
