@@ -1,9 +1,9 @@
-      ©import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaShieldAlt } from 'react-icons/fa'
 
 const services = ['Life Insurance', 'Health Insurance', 'Auto Insurance', 'Home Insurance', 'Business Insurance', 'Retirement Planning']
 
 export default function Footer() {
-  return (h
+  return (
     <footer className="bg-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
@@ -20,9 +20,9 @@ export default function Footer() {
               a personalized solution for your individual needs.
             </p>
             <div className="space-y-2">
-              <a href="tel:9562800573" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
+              <a href="tel:9562136631" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaPhone className="text-xs" />
-                h(559)213-6631
+                (956) 213-6631
               </a>
               <a href="mailto:Mshears@markshearsinsurance.com" className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors text-sm">
                 <FaEnvelope className="text-xs" />
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-blue-200">
-          <p>© {new Date().getFullYear()} Mark Shears Insurance. All rights reserved.</p>
+          <p>{'©'} {new Date().getFullYear()} Mark Shears Insurance. All rights reserved.</p>
           <p>Insurance services in Rio Grande Valley, Texas | McAllen | Edinburg | Mission</p>
         </div>
       </div>
