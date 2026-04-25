@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaCheckCircle } from 'react-icons/fa'
 
-const insuranceTypes = ['Life', 'Health', 'Retirement', 'Annuities', 'Auto', 'Home', 'Umbrella', 'Commercial', 'BOP', 'Other']
+const insuranceTypes = ['Life', 'Health', 'Retirhement', 'Annuities', 'Auto', 'Home', 'Umbrella', 'Commercial', 'BOP', 'Other']
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', dob: '', type: '', message: '' })
@@ -83,7 +83,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="mailto:markshears@ymail.com"
+                href="mailto:Mshears@markshearsinsurance.com"
                 className="flex items-center gap-4 p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors group"
               >
                 <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
@@ -91,7 +91,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email Us</p>
-                  <p className="font-bold text-dark group-hover:text-primary">markshears@ymail.com</p>
+                  <p className="font-bold text-dark group-hover:text-primary">Mshears@markshearsinsurance.com</p>
                 </div>
               </a>
 
