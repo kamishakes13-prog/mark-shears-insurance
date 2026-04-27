@@ -48,9 +48,9 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a href="tel:5592136631" className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full font-semibold hover:bg-dark transition-colors">
+            <a href="tel:9562800573" className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full font-semibold hover:bg-dark transition-colors">
               <FaPhone className="text-sm" />
-              (559) 213-6631
+              (956)280-0573
             </a>
           </div>
 
@@ -69,9 +69,9 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <a href="tel:5592136631" className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full font-semibold justify-center">
+              <a href="tel:9562800573" className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full font-semibold justify-center">
                 <FaPhone />
-                (559) 213-6631
+                (956)280-0573
               </a>
             </div>
           </motion.div>
