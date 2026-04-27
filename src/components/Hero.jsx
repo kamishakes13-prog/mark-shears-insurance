@@ -54,12 +54,12 @@ export default function Hero() {
               Get Free Quote
             </motion.button>
             <a
-              href="tel:5592136631"
+              href="tel:9562800573"
               className="flex items-center gap-2 text-white border-2 border-white/50 px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-all text-lg"
-              aria-label="Call Mark Shears Insurance at (559) 213-6631"
+              aria-label="Call Mark Shears Insurance at (956)280-0573"
             >
               <FaPhone aria-hidden="true" />
-              (559) 213-6631
+              (956)280-0573
             </a>
           </div>
 
